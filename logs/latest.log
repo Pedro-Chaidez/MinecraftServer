@@ -1,0 +1,492 @@
+[14:47:46] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.18.5
+[14:47:46] [main/INFO]: Loading 56 mods:
+	- cobblemon 1.7.3+1.21.1
+	   \-- fabric-language-kotlin 1.13.6+kotlin.2.2.20
+	        |-- org_jetbrains_kotlin_kotlin-reflect 2.2.20
+	        |-- org_jetbrains_kotlin_kotlin-stdlib 2.2.20
+	        |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.2.20
+	        |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.2.20
+	        |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
+	        |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	        |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	        |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	        |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.0
+	        |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.0
+	        |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
+	        |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
+	        \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
+	- fabric-api 0.116.9+1.21.1
+	   |-- fabric-api-base 0.4.42+6573ed8c19
+	   |-- fabric-api-lookup-api-v1 1.6.72+7b3d111d19
+	   |-- fabric-biome-api-v1 13.0.31+d527f9fd19
+	   |-- fabric-block-api-v1 1.1.0+0bc3503219
+	   |-- fabric-block-view-api-v2 1.0.11+ebb2264e19
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c19
+	   |-- fabric-command-api-v1 1.2.49+f71b366f19
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
+	   |-- fabric-commands-v0 0.2.66+df3654b319
+	   |-- fabric-content-registries-v0 8.0.19+b559734419
+	   |-- fabric-convention-tags-v1 2.1.6+7f945d5b19
+	   |-- fabric-convention-tags-v2 2.11.2+fa89716719
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	   |-- fabric-data-attachment-api-v1 1.4.6+5b36e0f719
+	   |-- fabric-data-generation-api-v1 20.2.35+37516cd619
+	   |-- fabric-dimensions-v1 4.0.1+65213ef819
+	   |-- fabric-entity-events-v1 1.8.0+2b27e0a419
+	   |-- fabric-events-interaction-v0 0.7.13+ba9dae0619
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	   |-- fabric-item-api-v1 11.2.0+3b3cb2e819
+	   |-- fabric-item-group-api-v1 4.1.7+def88e3a19
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	   |-- fabric-keybindings-v0 0.2.45+df3654b319
+	   |-- fabric-lifecycle-events-v1 2.6.0+0865547519
+	   |-- fabric-loot-api-v2 3.0.15+3f89f5a519
+	   |-- fabric-loot-api-v3 1.0.3+3f89f5a519
+	   |-- fabric-message-api-v1 6.0.14+8aaf3aca19
+	   |-- fabric-model-loading-api-v1 2.1.0+b4d813fc19
+	   |-- fabric-networking-api-v1 4.3.0+c7469b2119
+	   |-- fabric-object-builder-api-v1 15.2.1+40875a9319
+	   |-- fabric-particles-v1 4.0.2+6573ed8c19
+	   |-- fabric-recipe-api-v1 5.0.15+2475392c19
+	   |-- fabric-registry-sync-v0 5.3.1+e3eddc2119
+	   |-- fabric-renderer-api-v1 3.4.1+b4d813fc19
+	   |-- fabric-renderer-indigo 1.7.1+c705a49c19
+	   |-- fabric-renderer-registries-v1 3.2.69+df3654b319
+	   |-- fabric-rendering-data-attachment-v1 0.3.49+73761d2e19
+	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	   |-- fabric-rendering-v0 1.1.72+df3654b319
+	   |-- fabric-rendering-v1 5.1.0+ab4c25a019
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	   |-- fabric-resource-loader-v0 1.3.1+5b5275af19
+	   |-- fabric-screen-api-v1 2.0.25+8b68f1c719
+	   |-- fabric-screen-handler-api-v1 1.3.90+b559734419
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
+	   |-- fabric-transfer-api-v1 5.4.4+7b3d111d19
+	   \-- fabric-transitive-access-wideners-v1 6.2.0+45b9699719
+	- fabricloader 0.18.5
+	   \-- mixinextras 0.5.3
+	- java 21
+	- minecraft 1.21.1
+[14:47:46] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/pedro/cobblemon-server/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[14:47:46] [main/INFO]: Compatibility level set to JAVA_21
+[14:47:47] [main/WARN]: Error loading class: net/minecraft/class_4224 (java.lang.ClassNotFoundException: net/minecraft/class_4224)
+[14:47:47] [main/WARN]: @Mixin target net.minecraft.class_4224 was not found mixins.cobblemon-common.json:ChannelMixin from mod cobblemon
+[14:47:47] [main/WARN]: Error loading class: juuxel/adorn/block/variant/BlockVariantSets (java.lang.ClassNotFoundException: juuxel/adorn/block/variant/BlockVariantSets)
+[14:47:47] [main/WARN]: @Mixin target juuxel.adorn.block.variant.BlockVariantSets was not found mixins.cobblemon-common.json:invoker.AdornRegisterInvoker from mod cobblemon
+[14:47:47] [main/WARN]: Error loading class: net/minecraft/class_1140 (java.lang.ClassNotFoundException: net/minecraft/class_1140)
+[14:47:47] [main/WARN]: @Mixin target net.minecraft.class_1140 was not found mixins.cobblemon-fabric.json:FabricSoundEngineMixin from mod cobblemon
+[14:47:47] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[14:47:56] [main/INFO]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
+[14:47:56] [main/INFO]: Launching Cobblemon 1.7.3 
+[14:47:59] [main/ERROR]: No data fixer registered for cobblemon:pokemon
+[14:47:59] [main/ERROR]: No data fixer registered for cobblemon:empty_pokeball
+[14:47:59] [main/ERROR]: No data fixer registered for cobblemon:boat
+[14:47:59] [main/ERROR]: No data fixer registered for cobblemon:chest_boat
+[14:47:59] [main/ERROR]: No data fixer registered for cobblemon:poke_bobber
+[14:47:59] [main/ERROR]: No data fixer registered for cobblemon:generic_bedrock
+[14:47:59] [main/ERROR]: No data fixer registered for cobblemon:npc
+[14:48:00] [main/INFO]: Starting the Best Spawner...
+[14:48:00] [main/INFO]: Loaded 7 spawning condition types.
+[14:48:00] [main/INFO]: Loaded 6 spawnable position types.
+[14:48:00] [main/INFO]: Loaded 3 spawn detail types.
+[14:48:00] [Cobblemon Showdown/INFO]: Starting showdown service...
+[14:48:03] [Cobblemon Showdown/INFO]: Showdown has been started!
+[14:48:03] [main/INFO]: Note: Cobblemon data registries are only loaded once per server instance as Pokémon species are not safe to reload.
+[14:48:03] [main/INFO]: Registered the cobblemon:molang registry
+[14:48:03] [main/INFO]: Registered the cobblemon:species_features registry
+[14:48:03] [main/INFO]: Registered the cobblemon:global_species_features registry
+[14:48:03] [main/INFO]: Registered the cobblemon:species_feature_assignments registry
+[14:48:03] [main/INFO]: Registered the cobblemon:action_effects registry
+[14:48:03] [main/INFO]: Registered the cobblemon:moves registry
+[14:48:03] [main/INFO]: Registered the cobblemon:abilities registry
+[14:48:03] [main/INFO]: Registered the cobblemon:behaviours registry
+[14:48:03] [main/INFO]: Registered the cobblemon:species registry
+[14:48:03] [main/INFO]: Registered the cobblemon:species_additions registry
+[14:48:03] [main/INFO]: Registered the cobblemon:pokeballs registry
+[14:48:03] [main/INFO]: Registered the cobblemon:properties_tab_completion registry
+[14:48:03] [main/INFO]: Registered the cobblemon:spawn_detail_presets registry
+[14:48:03] [main/INFO]: Registered the cobblemon:spawn_rules registry
+[14:48:03] [main/INFO]: Registered the cobblemon:mechanics registry
+[14:48:03] [main/INFO]: Registered the cobblemon:bag_items registry
+[14:48:03] [main/INFO]: Registered the cobblemon:held_items registry
+[14:48:03] [main/INFO]: Registered the cobblemon:dialogues registry
+[14:48:03] [main/INFO]: Registered the cobblemon:natural_materials registry
+[14:48:03] [main/INFO]: Registered the cobblemon:fossils registry
+[14:48:03] [main/INFO]: Registered the cobblemon:npc_preset registry
+[14:48:03] [main/INFO]: Registered the cobblemon:npc registry
+[14:48:03] [main/INFO]: Registered the cobblemon:dex_entries registry
+[14:48:03] [main/INFO]: Registered the cobblemon:dex_entry_additions registry
+[14:48:03] [main/INFO]: Registered the cobblemon:dexes registry
+[14:48:03] [main/INFO]: Registered the cobblemon:dex_additions registry
+[14:48:03] [main/INFO]: Registered the cobblemon:cosmetic_items registry
+[14:48:03] [main/INFO]: Registered the cobblemon:callbacks registry
+[14:48:03] [main/INFO]: Registered the cobblemon:unlockable_pc_box_wallpapers registry
+[14:48:03] [main/INFO]: Registered the cobblemon:marks registry
+[14:48:03] [main/INFO]: Registered the cobblemon:starters registry
+[14:48:03] [main/INFO]: Registered the cobblemon:spawn_pool_world registry
+[14:48:03] [main/INFO]: Registered the cobblemon:pokerods registry
+[14:48:03] [main/INFO]: Registered the cobblemon:berries registry
+[14:48:03] [main/INFO]: Registered the cobblemon:seasonings registry
+[14:48:03] [main/INFO]: Registered the cobblemon:pokemon_interactions registry
+[14:48:03] [main/INFO]: Registered the cobblemon:spawn_bait_effects registry
+[14:48:03] [main/INFO]: Registered the cobblemon:ride_settings registry
+[14:48:04] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:48:07] [main/INFO]: Loaded 2040 recipes
+[14:48:08] [main/INFO]: Loaded 2152 advancements
+[14:48:08] [main/INFO]: Loaded 10 server scripts and 1 client scripts
+[14:48:13] [main/INFO]: Loaded 936 moves
+[14:48:13] [main/INFO]: Loaded 314 abilities
+[14:48:13] [main/INFO]: Loaded 48 entity behaviours
+[14:48:14] [main/INFO]: Finished additions
+[14:48:15] [cobblemon Datafixer Bootstrap/INFO]: 4 Datafixer optimizations took 49 milliseconds
+[14:48:17] [main/INFO]: Loaded 1025 Pokémon species
+[14:48:17] [main/INFO]: Loaded 28 spawn detail presets.
+[14:48:17] [main/INFO]: Starting dummy Showdown battle to force it to pre-load data.
+[14:48:18] [main/INFO]: Imported 266 held item IDs from showdown
+[14:48:19] [main/INFO]: Loaded 15 fossils
+[14:48:19] [main/ERROR]: Invalid path in mod resource-pack cobblemon: cobblemon:dex_entry_additions/README.md, ignoring
+[14:48:19] [main/ERROR]: Invalid path in mod resource-pack cobblemon: cobblemon:dex_additions/README.md, ignoring
+[14:48:19] [main/INFO]: Loaded 6 callbacks and 0 client callbacks
+[14:48:19] [main/INFO]: Loaded 168 marks
+[14:48:21] [main/INFO]: Loaded 70 berries
+[14:48:21] [main/INFO]: Loaded 137 Pokémon interaction sets
+[14:48:24] [main/INFO]: Applied 616 biome modifications to 64 of 64 new biomes in 23.11 ms
+[14:48:24] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[14:48:24] [Server thread/INFO]: Loading properties
+[14:48:24] [Server thread/INFO]: Default game type: SURVIVAL
+[14:48:24] [Server thread/INFO]: Generating keypair
+[14:48:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:48:24] [Server thread/INFO]: Using epoll channel type
+[14:48:24] [Server thread/INFO]: Preparing level "world"
+[14:48:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:48:28] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:48:28] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:48:28] [Server thread/INFO]: Time elapsed: 821 ms
+[14:48:28] [Server thread/INFO]: Done (3.961s)! For help, type "help"
+[14:48:28] [Server thread/INFO]: Optimizing spawn pools...
+[14:48:33] [Server thread/INFO]: /advancement (grant|revoke)
+[14:48:33] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
+[14:48:33] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
+[14:48:33] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
+[14:48:33] [Server thread/INFO]: /clear [<targets>]
+[14:48:33] [Server thread/INFO]: /clone (<begin>|from)
+[14:48:33] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
+[14:48:33] [Server thread/INFO]: /data (merge|get|remove|modify)
+[14:48:33] [Server thread/INFO]: /datapack (enable|disable|list)
+[14:48:33] [Server thread/INFO]: /debug (start|stop|function)
+[14:48:33] [Server thread/INFO]: /defaultgamemode <gamemode>
+[14:48:33] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
+[14:48:33] [Server thread/INFO]: /effect (clear|give)
+[14:48:33] [Server thread/INFO]: /me <action>
+[14:48:33] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
+[14:48:33] [Server thread/INFO]: /experience (add|set|query)
+[14:48:33] [Server thread/INFO]: /xp -> experience
+[14:48:33] [Server thread/INFO]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
+[14:48:33] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
+[14:48:33] [Server thread/INFO]: /forceload (add|remove|query)
+[14:48:33] [Server thread/INFO]: /function <name> [<arguments>|with]
+[14:48:33] [Server thread/INFO]: /gamemode <gamemode> [<target>]
+[14:48:33] [Server thread/INFO]: /gamerule (announceAdvancements|battleInvulnerability|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doPokemonLoot|doPokemonSpawning|doShinyStarters|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|enderPearlsVanishOnDeath|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|healersHealPC|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxCommandForkCount|maxEntityCramming|mobExplosionDropDecay|mobGriefing|mobTargetInBattle|naturalRegeneration|playersNetherPortalCreativeDelay|playersNetherPortalDefaultDelay|playersSleepingPercentage|projectilesCanBreakBlocks|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnChunkRadius|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
+[14:48:33] [Server thread/INFO]: /give <targets> <item> [<count>]
+[14:48:33] [Server thread/INFO]: /help [<command>]
+[14:48:33] [Server thread/INFO]: /item (replace|modify)
+[14:48:33] [Server thread/INFO]: /kick <targets> [<reason>]
+[14:48:33] [Server thread/INFO]: /kill [<targets>]
+[14:48:33] [Server thread/INFO]: /list [uuids]
+[14:48:33] [Server thread/INFO]: /locate (structure|biome|poi)
+[14:48:33] [Server thread/INFO]: /loot (replace|insert|give|spawn)
+[14:48:33] [Server thread/INFO]: /msg <targets> <message>
+[14:48:33] [Server thread/INFO]: /tell -> msg
+[14:48:33] [Server thread/INFO]: /w -> msg
+[14:48:33] [Server thread/INFO]: /particle <name> [<pos>]
+[14:48:33] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
+[14:48:33] [Server thread/INFO]: /playsound <sound> [master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[14:48:33] [Server thread/INFO]: /random (value|roll|reset)
+[14:48:33] [Server thread/INFO]: /reload
+[14:48:33] [Server thread/INFO]: /recipe (give|take)
+[14:48:33] [Server thread/INFO]: /return (<value>|fail|run)
+[14:48:33] [Server thread/INFO]: /ride <target> (mount|dismount)
+[14:48:33] [Server thread/INFO]: /say <message>
+[14:48:33] [Server thread/INFO]: /schedule (function|clear)
+[14:48:33] [Server thread/INFO]: /scoreboard (objectives|players)
+[14:48:33] [Server thread/INFO]: /seed
+[14:48:33] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
+[14:48:33] [Server thread/INFO]: /spawnpoint [<targets>]
+[14:48:33] [Server thread/INFO]: /setworldspawn [<pos>]
+[14:48:33] [Server thread/INFO]: /spectate [<target>]
+[14:48:33] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[14:48:33] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[14:48:33] [Server thread/INFO]: /summon <entity> [<pos>]
+[14:48:33] [Server thread/INFO]: /tag <targets> (add|remove|list)
+[14:48:33] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
+[14:48:33] [Server thread/INFO]: /teammsg <message>
+[14:48:33] [Server thread/INFO]: /tm -> teammsg
+[14:48:33] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
+[14:48:33] [Server thread/INFO]: /tp -> teleport
+[14:48:33] [Server thread/INFO]: /tellraw <targets> <message>
+[14:48:33] [Server thread/INFO]: /tick (query|rate|step|sprint|unfreeze|freeze)
+[14:48:33] [Server thread/INFO]: /time (set|add|query)
+[14:48:33] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[14:48:33] [Server thread/INFO]: /trigger <objective> [add|set]
+[14:48:33] [Server thread/INFO]: /weather (clear|rain|thunder)
+[14:48:33] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
+[14:48:33] [Server thread/INFO]: /jfr (start|stop)
+[14:48:33] [Server thread/INFO]: /ban-ip <target> [<reason>]
+[14:48:33] [Server thread/INFO]: /banlist [ips|players]
+[14:48:33] [Server thread/INFO]: /ban <targets> [<reason>]
+[14:48:33] [Server thread/INFO]: /deop <targets>
+[14:48:33] [Server thread/INFO]: /op <targets>
+[14:48:33] [Server thread/INFO]: /pardon <targets>
+[14:48:33] [Server thread/INFO]: /pardon-ip <target>
+[14:48:33] [Server thread/INFO]: /perf (start|stop)
+[14:48:33] [Server thread/INFO]: /save-all [flush]
+[14:48:33] [Server thread/INFO]: /save-off
+[14:48:33] [Server thread/INFO]: /save-on
+[14:48:33] [Server thread/INFO]: /setidletimeout <minutes>
+[14:48:33] [Server thread/INFO]: /stop
+[14:48:33] [Server thread/INFO]: /transfer <hostname> [<port>]
+[14:48:33] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
+[14:48:33] [Server thread/INFO]: /spawnpokemon <properties>
+[14:48:33] [Server thread/INFO]: /pokespawn <properties>
+[14:48:33] [Server thread/INFO]: /spawnpokemonat <pos> <properties>
+[14:48:33] [Server thread/INFO]: /pokespawnat <pos> <properties>
+[14:48:33] [Server thread/INFO]: /spawnnpc <class> [<level>]
+[14:48:33] [Server thread/INFO]: /npcspawn <class> [<level>]
+[14:48:33] [Server thread/INFO]: /spawnnpcat <pos> <class> [<level>]
+[14:48:33] [Server thread/INFO]: /npcspawnat <pos> <class> [<level>]
+[14:48:33] [Server thread/INFO]: /givepokemon <properties>
+[14:48:33] [Server thread/INFO]: /pokegive <properties>
+[14:48:33] [Server thread/INFO]: /givepokemonother <player> <properties>
+[14:48:33] [Server thread/INFO]: /pokegiveother <player> <properties>
+[14:48:33] [Server thread/INFO]: /takepokemon <player> <slot>
+[14:48:33] [Server thread/INFO]: /changeeyeheight <pokemon> (standing|flying|swimming)
+[14:48:33] [Server thread/INFO]: /changescaleandsize <pokemon> [<scale>]
+[14:48:33] [Server thread/INFO]: /changewalkspeed [<pokemon>]
+[14:48:33] [Server thread/INFO]: /transformmodelpart <transform> [<part>]
+[14:48:33] [Server thread/INFO]: /testcommand
+[14:48:33] [Server thread/INFO]: /reloadshowdown
+[14:48:33] [Server thread/INFO]: /pokemonedit <slot> <properties>
+[14:48:33] [Server thread/INFO]: /pokeedit <slot> <properties>
+[14:48:33] [Server thread/INFO]: /pokemoneditother <player> <slot> <properties>
+[14:48:33] [Server thread/INFO]: /pokeeditother <player> <slot> <properties>
+[14:48:33] [Server thread/INFO]: /teach <player> <slot> <move>
+[14:48:33] [Server thread/INFO]: /levelup <player> <slot>
+[14:48:33] [Server thread/INFO]: /healpokemon [<player>]
+[14:48:33] [Server thread/INFO]: /pokeheal [<player>]
+[14:48:33] [Server thread/INFO]: /stopbattle <player>
+[14:48:33] [Server thread/INFO]: /checkspawn
+[14:48:33] [Server thread/INFO]: /openstarterscreen <player>
+[14:48:33] [Server thread/INFO]: /friendship <slot>
+[14:48:33] [Server thread/INFO]: /held_item <target> <slot> <item>
+[14:48:33] [Server thread/INFO]: /pc [<box>]
+[14:48:33] [Server thread/INFO]: /spawnpokemonfrompool [<amount>]
+[14:48:33] [Server thread/INFO]: /forcespawn [<amount>]
+[14:48:33] [Server thread/INFO]: /pokebox <player> <slot> [<box>]
+[14:48:33] [Server thread/INFO]: /pokeboxall <player> [<box>]
+[14:48:33] [Server thread/INFO]: /pokedex (grant|revoke|printcalculations)
+[14:48:33] [Server thread/INFO]: /teststore <player> <store> <properties>
+[14:48:33] [Server thread/INFO]: /querylearnset <player> <slot> <move>
+[14:48:33] [Server thread/INFO]: /testpcslot <player> <box> <slot> <properties>
+[14:48:33] [Server thread/INFO]: /testpartyslot <player> <slot> <properties>
+[14:48:33] [Server thread/INFO]: /clearparty <player>
+[14:48:33] [Server thread/INFO]: /clearpc <player>
+[14:48:33] [Server thread/INFO]: /pokemonrestart [<reset_starters>]
+[14:48:33] [Server thread/INFO]: /pokerestart [<reset_starters>]
+[14:48:33] [Server thread/INFO]: /pokemonrestartother <player> [<reset_starters>]
+[14:48:33] [Server thread/INFO]: /pokerestartother <player> [<reset_starters>]
+[14:48:33] [Server thread/INFO]: /bedrockparticle <effect> (<target>|<world>)
+[14:48:33] [Server thread/INFO]: /opendialogue <dialogue> <player>
+[14:48:33] [Server thread/INFO]: /npcdelete [<target>]
+[14:48:33] [Server thread/INFO]: /abandonmultiteam
+[14:48:33] [Server thread/INFO]: /abandonmultibattleteam
+[14:48:33] [Server thread/INFO]: /applyplayertexture <player>
+[14:48:33] [Server thread/INFO]: /renamebox <player> <box> <name>
+[14:48:33] [Server thread/INFO]: /changewallpaper <player> <box> <wallpaper>
+[14:48:33] [Server thread/INFO]: /runmolang <molang> [<player>|<npc>|<pokemon>]
+[14:48:33] [Server thread/INFO]: /runmolangscript <script> [<player>|<npc>|<pokemon>]
+[14:48:33] [Server thread/INFO]: /spectateBattle <player>
+[14:48:33] [Server thread/INFO]: /cobblemonconfig [reload]
+[14:48:33] [Server thread/INFO]: /unlockpcboxwallpaper <player> <wallpaper> [<playsSound>]
+[14:48:33] [Server thread/INFO]: /boxcount (query|add|remove|set)
+[14:48:33] [Server thread/INFO]: /givemark <player> <slot> <mark>
+[14:48:33] [Server thread/INFO]: /takemark <player> <slot> <mark>
+[14:48:33] [Server thread/INFO]: /giveallmarks <player> <slot>
+[14:48:33] [Server thread/INFO]: /pcsearch (<properties>|other)
+[14:48:33] [Server thread/INFO]: /pctake <player> <box> <slot>
+[14:48:33] [Server thread/INFO]: /cobblemon info
+[14:48:33] [Server thread/INFO]: /calculateseatpositions <species> <aspects> <pose>
+[14:48:55] [User Authenticator #1/INFO]: UUID of player TheVi0letGamer is 8aa42dcb-5881-40f2-9264-cd52dada10a2
+[14:48:57] [Server thread/INFO]: TheVi0letGamer[/192.168.6.130:35164] logged in with entity id 32 at (-75.24461088274508, 63.0, 74.69999998807907)
+[14:48:57] [Server thread/INFO]: TheVi0letGamer joined the game
+[14:49:01] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[14:49:01] [Server thread/INFO]: <--[HERE]
+[14:49:13] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[14:49:13] [Server thread/INFO]: <--[HERE]
+[14:49:19] [Server thread/INFO]: /advancement (grant|revoke)
+[14:49:19] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
+[14:49:19] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
+[14:49:19] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
+[14:49:19] [Server thread/INFO]: /clear [<targets>]
+[14:49:19] [Server thread/INFO]: /clone (<begin>|from)
+[14:49:19] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
+[14:49:19] [Server thread/INFO]: /data (merge|get|remove|modify)
+[14:49:19] [Server thread/INFO]: /datapack (enable|disable|list)
+[14:49:19] [Server thread/INFO]: /debug (start|stop|function)
+[14:49:19] [Server thread/INFO]: /defaultgamemode <gamemode>
+[14:49:19] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
+[14:49:19] [Server thread/INFO]: /effect (clear|give)
+[14:49:19] [Server thread/INFO]: /me <action>
+[14:49:19] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
+[14:49:19] [Server thread/INFO]: /experience (add|set|query)
+[14:49:19] [Server thread/INFO]: /xp -> experience
+[14:49:19] [Server thread/INFO]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
+[14:49:19] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
+[14:49:19] [Server thread/INFO]: /forceload (add|remove|query)
+[14:49:19] [Server thread/INFO]: /function <name> [<arguments>|with]
+[14:49:19] [Server thread/INFO]: /gamemode <gamemode> [<target>]
+[14:49:19] [Server thread/INFO]: /gamerule (announceAdvancements|battleInvulnerability|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doPokemonLoot|doPokemonSpawning|doShinyStarters|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|enderPearlsVanishOnDeath|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|healersHealPC|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxCommandForkCount|maxEntityCramming|mobExplosionDropDecay|mobGriefing|mobTargetInBattle|naturalRegeneration|playersNetherPortalCreativeDelay|playersNetherPortalDefaultDelay|playersSleepingPercentage|projectilesCanBreakBlocks|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnChunkRadius|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
+[14:49:19] [Server thread/INFO]: /give <targets> <item> [<count>]
+[14:49:19] [Server thread/INFO]: /help [<command>]
+[14:49:19] [Server thread/INFO]: /item (replace|modify)
+[14:49:19] [Server thread/INFO]: /kick <targets> [<reason>]
+[14:49:19] [Server thread/INFO]: /kill [<targets>]
+[14:49:19] [Server thread/INFO]: /list [uuids]
+[14:49:19] [Server thread/INFO]: /locate (structure|biome|poi)
+[14:49:19] [Server thread/INFO]: /loot (replace|insert|give|spawn)
+[14:49:19] [Server thread/INFO]: /msg <targets> <message>
+[14:49:19] [Server thread/INFO]: /tell -> msg
+[14:49:19] [Server thread/INFO]: /w -> msg
+[14:49:19] [Server thread/INFO]: /particle <name> [<pos>]
+[14:49:19] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
+[14:49:19] [Server thread/INFO]: /playsound <sound> [master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[14:49:19] [Server thread/INFO]: /random (value|roll|reset)
+[14:49:19] [Server thread/INFO]: /reload
+[14:49:19] [Server thread/INFO]: /recipe (give|take)
+[14:49:19] [Server thread/INFO]: /return (<value>|fail|run)
+[14:49:19] [Server thread/INFO]: /ride <target> (mount|dismount)
+[14:49:19] [Server thread/INFO]: /say <message>
+[14:49:19] [Server thread/INFO]: /schedule (function|clear)
+[14:49:19] [Server thread/INFO]: /scoreboard (objectives|players)
+[14:49:19] [Server thread/INFO]: /seed
+[14:49:19] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
+[14:49:19] [Server thread/INFO]: /spawnpoint [<targets>]
+[14:49:19] [Server thread/INFO]: /setworldspawn [<pos>]
+[14:49:19] [Server thread/INFO]: /spectate [<target>]
+[14:49:19] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[14:49:19] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[14:49:19] [Server thread/INFO]: /summon <entity> [<pos>]
+[14:49:19] [Server thread/INFO]: /tag <targets> (add|remove|list)
+[14:49:19] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
+[14:49:19] [Server thread/INFO]: /teammsg <message>
+[14:49:19] [Server thread/INFO]: /tm -> teammsg
+[14:49:19] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
+[14:49:19] [Server thread/INFO]: /tp -> teleport
+[14:49:19] [Server thread/INFO]: /tellraw <targets> <message>
+[14:49:19] [Server thread/INFO]: /tick (query|rate|step|sprint|unfreeze|freeze)
+[14:49:19] [Server thread/INFO]: /time (set|add|query)
+[14:49:19] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[14:49:19] [Server thread/INFO]: /trigger <objective> [add|set]
+[14:49:19] [Server thread/INFO]: /weather (clear|rain|thunder)
+[14:49:19] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
+[14:49:19] [Server thread/INFO]: /jfr (start|stop)
+[14:49:19] [Server thread/INFO]: /ban-ip <target> [<reason>]
+[14:49:19] [Server thread/INFO]: /banlist [ips|players]
+[14:49:19] [Server thread/INFO]: /ban <targets> [<reason>]
+[14:49:19] [Server thread/INFO]: /deop <targets>
+[14:49:19] [Server thread/INFO]: /op <targets>
+[14:49:19] [Server thread/INFO]: /pardon <targets>
+[14:49:19] [Server thread/INFO]: /pardon-ip <target>
+[14:49:19] [Server thread/INFO]: /perf (start|stop)
+[14:49:19] [Server thread/INFO]: /save-all [flush]
+[14:49:19] [Server thread/INFO]: /save-off
+[14:49:19] [Server thread/INFO]: /save-on
+[14:49:19] [Server thread/INFO]: /setidletimeout <minutes>
+[14:49:19] [Server thread/INFO]: /stop
+[14:49:19] [Server thread/INFO]: /transfer <hostname> [<port>]
+[14:49:19] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
+[14:49:19] [Server thread/INFO]: /spawnpokemon <properties>
+[14:49:19] [Server thread/INFO]: /pokespawn <properties>
+[14:49:19] [Server thread/INFO]: /spawnpokemonat <pos> <properties>
+[14:49:19] [Server thread/INFO]: /pokespawnat <pos> <properties>
+[14:49:19] [Server thread/INFO]: /spawnnpc <class> [<level>]
+[14:49:19] [Server thread/INFO]: /npcspawn <class> [<level>]
+[14:49:19] [Server thread/INFO]: /spawnnpcat <pos> <class> [<level>]
+[14:49:19] [Server thread/INFO]: /npcspawnat <pos> <class> [<level>]
+[14:49:19] [Server thread/INFO]: /givepokemon <properties>
+[14:49:19] [Server thread/INFO]: /pokegive <properties>
+[14:49:19] [Server thread/INFO]: /givepokemonother <player> <properties>
+[14:49:19] [Server thread/INFO]: /pokegiveother <player> <properties>
+[14:49:19] [Server thread/INFO]: /takepokemon <player> <slot>
+[14:49:19] [Server thread/INFO]: /changeeyeheight <pokemon> (standing|flying|swimming)
+[14:49:19] [Server thread/INFO]: /changescaleandsize <pokemon> [<scale>]
+[14:49:19] [Server thread/INFO]: /changewalkspeed [<pokemon>]
+[14:49:19] [Server thread/INFO]: /transformmodelpart <transform> [<part>]
+[14:49:19] [Server thread/INFO]: /testcommand
+[14:49:19] [Server thread/INFO]: /reloadshowdown
+[14:49:19] [Server thread/INFO]: /pokemonedit <slot> <properties>
+[14:49:19] [Server thread/INFO]: /pokeedit <slot> <properties>
+[14:49:19] [Server thread/INFO]: /pokemoneditother <player> <slot> <properties>
+[14:49:19] [Server thread/INFO]: /pokeeditother <player> <slot> <properties>
+[14:49:19] [Server thread/INFO]: /teach <player> <slot> <move>
+[14:49:19] [Server thread/INFO]: /levelup <player> <slot>
+[14:49:19] [Server thread/INFO]: /healpokemon [<player>]
+[14:49:19] [Server thread/INFO]: /pokeheal [<player>]
+[14:49:19] [Server thread/INFO]: /stopbattle <player>
+[14:49:19] [Server thread/INFO]: /checkspawn
+[14:49:19] [Server thread/INFO]: /openstarterscreen <player>
+[14:49:19] [Server thread/INFO]: /friendship <slot>
+[14:49:19] [Server thread/INFO]: /held_item <target> <slot> <item>
+[14:49:19] [Server thread/INFO]: /pc [<box>]
+[14:49:19] [Server thread/INFO]: /spawnpokemonfrompool [<amount>]
+[14:49:19] [Server thread/INFO]: /forcespawn [<amount>]
+[14:49:19] [Server thread/INFO]: /pokebox <player> <slot> [<box>]
+[14:49:19] [Server thread/INFO]: /pokeboxall <player> [<box>]
+[14:49:19] [Server thread/INFO]: /pokedex (grant|revoke|printcalculations)
+[14:49:19] [Server thread/INFO]: /teststore <player> <store> <properties>
+[14:49:19] [Server thread/INFO]: /querylearnset <player> <slot> <move>
+[14:49:19] [Server thread/INFO]: /testpcslot <player> <box> <slot> <properties>
+[14:49:19] [Server thread/INFO]: /testpartyslot <player> <slot> <properties>
+[14:49:19] [Server thread/INFO]: /clearparty <player>
+[14:49:19] [Server thread/INFO]: /clearpc <player>
+[14:49:19] [Server thread/INFO]: /pokemonrestart [<reset_starters>]
+[14:49:19] [Server thread/INFO]: /pokerestart [<reset_starters>]
+[14:49:19] [Server thread/INFO]: /pokemonrestartother <player> [<reset_starters>]
+[14:49:19] [Server thread/INFO]: /pokerestartother <player> [<reset_starters>]
+[14:49:19] [Server thread/INFO]: /bedrockparticle <effect> (<target>|<world>)
+[14:49:19] [Server thread/INFO]: /opendialogue <dialogue> <player>
+[14:49:19] [Server thread/INFO]: /npcdelete [<target>]
+[14:49:19] [Server thread/INFO]: /abandonmultiteam
+[14:49:19] [Server thread/INFO]: /abandonmultibattleteam
+[14:49:19] [Server thread/INFO]: /applyplayertexture <player>
+[14:49:19] [Server thread/INFO]: /renamebox <player> <box> <name>
+[14:49:19] [Server thread/INFO]: /changewallpaper <player> <box> <wallpaper>
+[14:49:19] [Server thread/INFO]: /runmolang <molang> [<player>|<npc>|<pokemon>]
+[14:49:19] [Server thread/INFO]: /runmolangscript <script> [<player>|<npc>|<pokemon>]
+[14:49:19] [Server thread/INFO]: /spectateBattle <player>
+[14:49:19] [Server thread/INFO]: /cobblemonconfig [reload]
+[14:49:19] [Server thread/INFO]: /unlockpcboxwallpaper <player> <wallpaper> [<playsSound>]
+[14:49:19] [Server thread/INFO]: /boxcount (query|add|remove|set)
+[14:49:19] [Server thread/INFO]: /givemark <player> <slot> <mark>
+[14:49:19] [Server thread/INFO]: /takemark <player> <slot> <mark>
+[14:49:19] [Server thread/INFO]: /giveallmarks <player> <slot>
+[14:49:19] [Server thread/INFO]: /pcsearch (<properties>|other)
+[14:49:19] [Server thread/INFO]: /pctake <player> <box> <slot>
+[14:49:19] [Server thread/INFO]: /cobblemon info
+[14:49:19] [Server thread/INFO]: /calculateseatpositions <species> <aspects> <pose>
+[14:49:41] [Server thread/INFO]: TheVi0letGamer was killed
+[14:49:41] [Server thread/INFO]: Killed TheVi0letGamer
+[14:49:50] [Server thread/WARN]: TheVi0letGamer moved too quickly! -8.255389117254921,1.0,-81.19999998807907
+[14:50:06] [Server thread/INFO]: Stopping the server
+[14:50:06] [Server thread/INFO]: Stopping server
+[14:50:06] [Server thread/INFO]: Saving players
+[14:50:06] [Server thread/INFO]: TheVi0letGamer lost connection: Server closed
+[14:50:06] [Server thread/INFO]: TheVi0letGamer left the game
+[14:50:06] [Server thread/INFO]: Saving worlds
+[14:50:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:50:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14:50:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14:50:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:50:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:50:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:50:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
