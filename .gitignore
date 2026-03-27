@@ -1,0 +1,10 @@
+# Ignore all mod JARs (they are too big for GitHub)
+mods/*.jar
+
+# Ignore the server core
+*.jar
+
+# Ignore the world and logs
+world/
+logs/
+debug/

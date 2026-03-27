@@ -1,5 +1,5 @@
-[14:47:46] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.18.5
-[14:47:46] [main/INFO]: Loading 56 mods:
+[15:53:04] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.18.5
+[15:53:04] [main/INFO]: Loading 56 mods:
 	- cobblemon 1.7.3+1.21.1
 	   \-- fabric-language-kotlin 1.13.6+kotlin.2.2.20
 	        |-- org_jetbrains_kotlin_kotlin-reflect 2.2.20
@@ -68,425 +68,729 @@
 	   \-- mixinextras 0.5.3
 	- java 21
 	- minecraft 1.21.1
-[14:47:46] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/pedro/cobblemon-server/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[14:47:46] [main/INFO]: Compatibility level set to JAVA_21
-[14:47:47] [main/WARN]: Error loading class: net/minecraft/class_4224 (java.lang.ClassNotFoundException: net/minecraft/class_4224)
-[14:47:47] [main/WARN]: @Mixin target net.minecraft.class_4224 was not found mixins.cobblemon-common.json:ChannelMixin from mod cobblemon
-[14:47:47] [main/WARN]: Error loading class: juuxel/adorn/block/variant/BlockVariantSets (java.lang.ClassNotFoundException: juuxel/adorn/block/variant/BlockVariantSets)
-[14:47:47] [main/WARN]: @Mixin target juuxel.adorn.block.variant.BlockVariantSets was not found mixins.cobblemon-common.json:invoker.AdornRegisterInvoker from mod cobblemon
-[14:47:47] [main/WARN]: Error loading class: net/minecraft/class_1140 (java.lang.ClassNotFoundException: net/minecraft/class_1140)
-[14:47:47] [main/WARN]: @Mixin target net.minecraft.class_1140 was not found mixins.cobblemon-fabric.json:FabricSoundEngineMixin from mod cobblemon
-[14:47:47] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
-[14:47:56] [main/INFO]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
-[14:47:56] [main/INFO]: Launching Cobblemon 1.7.3 
-[14:47:59] [main/ERROR]: No data fixer registered for cobblemon:pokemon
-[14:47:59] [main/ERROR]: No data fixer registered for cobblemon:empty_pokeball
-[14:47:59] [main/ERROR]: No data fixer registered for cobblemon:boat
-[14:47:59] [main/ERROR]: No data fixer registered for cobblemon:chest_boat
-[14:47:59] [main/ERROR]: No data fixer registered for cobblemon:poke_bobber
-[14:47:59] [main/ERROR]: No data fixer registered for cobblemon:generic_bedrock
-[14:47:59] [main/ERROR]: No data fixer registered for cobblemon:npc
-[14:48:00] [main/INFO]: Starting the Best Spawner...
-[14:48:00] [main/INFO]: Loaded 7 spawning condition types.
-[14:48:00] [main/INFO]: Loaded 6 spawnable position types.
-[14:48:00] [main/INFO]: Loaded 3 spawn detail types.
-[14:48:00] [Cobblemon Showdown/INFO]: Starting showdown service...
-[14:48:03] [Cobblemon Showdown/INFO]: Showdown has been started!
-[14:48:03] [main/INFO]: Note: Cobblemon data registries are only loaded once per server instance as Pokémon species are not safe to reload.
-[14:48:03] [main/INFO]: Registered the cobblemon:molang registry
-[14:48:03] [main/INFO]: Registered the cobblemon:species_features registry
-[14:48:03] [main/INFO]: Registered the cobblemon:global_species_features registry
-[14:48:03] [main/INFO]: Registered the cobblemon:species_feature_assignments registry
-[14:48:03] [main/INFO]: Registered the cobblemon:action_effects registry
-[14:48:03] [main/INFO]: Registered the cobblemon:moves registry
-[14:48:03] [main/INFO]: Registered the cobblemon:abilities registry
-[14:48:03] [main/INFO]: Registered the cobblemon:behaviours registry
-[14:48:03] [main/INFO]: Registered the cobblemon:species registry
-[14:48:03] [main/INFO]: Registered the cobblemon:species_additions registry
-[14:48:03] [main/INFO]: Registered the cobblemon:pokeballs registry
-[14:48:03] [main/INFO]: Registered the cobblemon:properties_tab_completion registry
-[14:48:03] [main/INFO]: Registered the cobblemon:spawn_detail_presets registry
-[14:48:03] [main/INFO]: Registered the cobblemon:spawn_rules registry
-[14:48:03] [main/INFO]: Registered the cobblemon:mechanics registry
-[14:48:03] [main/INFO]: Registered the cobblemon:bag_items registry
-[14:48:03] [main/INFO]: Registered the cobblemon:held_items registry
-[14:48:03] [main/INFO]: Registered the cobblemon:dialogues registry
-[14:48:03] [main/INFO]: Registered the cobblemon:natural_materials registry
-[14:48:03] [main/INFO]: Registered the cobblemon:fossils registry
-[14:48:03] [main/INFO]: Registered the cobblemon:npc_preset registry
-[14:48:03] [main/INFO]: Registered the cobblemon:npc registry
-[14:48:03] [main/INFO]: Registered the cobblemon:dex_entries registry
-[14:48:03] [main/INFO]: Registered the cobblemon:dex_entry_additions registry
-[14:48:03] [main/INFO]: Registered the cobblemon:dexes registry
-[14:48:03] [main/INFO]: Registered the cobblemon:dex_additions registry
-[14:48:03] [main/INFO]: Registered the cobblemon:cosmetic_items registry
-[14:48:03] [main/INFO]: Registered the cobblemon:callbacks registry
-[14:48:03] [main/INFO]: Registered the cobblemon:unlockable_pc_box_wallpapers registry
-[14:48:03] [main/INFO]: Registered the cobblemon:marks registry
-[14:48:03] [main/INFO]: Registered the cobblemon:starters registry
-[14:48:03] [main/INFO]: Registered the cobblemon:spawn_pool_world registry
-[14:48:03] [main/INFO]: Registered the cobblemon:pokerods registry
-[14:48:03] [main/INFO]: Registered the cobblemon:berries registry
-[14:48:03] [main/INFO]: Registered the cobblemon:seasonings registry
-[14:48:03] [main/INFO]: Registered the cobblemon:pokemon_interactions registry
-[14:48:03] [main/INFO]: Registered the cobblemon:spawn_bait_effects registry
-[14:48:03] [main/INFO]: Registered the cobblemon:ride_settings registry
-[14:48:04] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:48:07] [main/INFO]: Loaded 2040 recipes
-[14:48:08] [main/INFO]: Loaded 2152 advancements
-[14:48:08] [main/INFO]: Loaded 10 server scripts and 1 client scripts
-[14:48:13] [main/INFO]: Loaded 936 moves
-[14:48:13] [main/INFO]: Loaded 314 abilities
-[14:48:13] [main/INFO]: Loaded 48 entity behaviours
-[14:48:14] [main/INFO]: Finished additions
-[14:48:15] [cobblemon Datafixer Bootstrap/INFO]: 4 Datafixer optimizations took 49 milliseconds
-[14:48:17] [main/INFO]: Loaded 1025 Pokémon species
-[14:48:17] [main/INFO]: Loaded 28 spawn detail presets.
-[14:48:17] [main/INFO]: Starting dummy Showdown battle to force it to pre-load data.
-[14:48:18] [main/INFO]: Imported 266 held item IDs from showdown
-[14:48:19] [main/INFO]: Loaded 15 fossils
-[14:48:19] [main/ERROR]: Invalid path in mod resource-pack cobblemon: cobblemon:dex_entry_additions/README.md, ignoring
-[14:48:19] [main/ERROR]: Invalid path in mod resource-pack cobblemon: cobblemon:dex_additions/README.md, ignoring
-[14:48:19] [main/INFO]: Loaded 6 callbacks and 0 client callbacks
-[14:48:19] [main/INFO]: Loaded 168 marks
-[14:48:21] [main/INFO]: Loaded 70 berries
-[14:48:21] [main/INFO]: Loaded 137 Pokémon interaction sets
-[14:48:24] [main/INFO]: Applied 616 biome modifications to 64 of 64 new biomes in 23.11 ms
-[14:48:24] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[14:48:24] [Server thread/INFO]: Loading properties
-[14:48:24] [Server thread/INFO]: Default game type: SURVIVAL
-[14:48:24] [Server thread/INFO]: Generating keypair
-[14:48:24] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:48:24] [Server thread/INFO]: Using epoll channel type
-[14:48:24] [Server thread/INFO]: Preparing level "world"
-[14:48:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:48:28] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[14:48:28] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[14:48:28] [Server thread/INFO]: Time elapsed: 821 ms
-[14:48:28] [Server thread/INFO]: Done (3.961s)! For help, type "help"
-[14:48:28] [Server thread/INFO]: Optimizing spawn pools...
-[14:48:33] [Server thread/INFO]: /advancement (grant|revoke)
-[14:48:33] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
-[14:48:33] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
-[14:48:33] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
-[14:48:33] [Server thread/INFO]: /clear [<targets>]
-[14:48:33] [Server thread/INFO]: /clone (<begin>|from)
-[14:48:33] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
-[14:48:33] [Server thread/INFO]: /data (merge|get|remove|modify)
-[14:48:33] [Server thread/INFO]: /datapack (enable|disable|list)
-[14:48:33] [Server thread/INFO]: /debug (start|stop|function)
-[14:48:33] [Server thread/INFO]: /defaultgamemode <gamemode>
-[14:48:33] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
-[14:48:33] [Server thread/INFO]: /effect (clear|give)
-[14:48:33] [Server thread/INFO]: /me <action>
-[14:48:33] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
-[14:48:33] [Server thread/INFO]: /experience (add|set|query)
-[14:48:33] [Server thread/INFO]: /xp -> experience
-[14:48:33] [Server thread/INFO]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
-[14:48:33] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
-[14:48:33] [Server thread/INFO]: /forceload (add|remove|query)
-[14:48:33] [Server thread/INFO]: /function <name> [<arguments>|with]
-[14:48:33] [Server thread/INFO]: /gamemode <gamemode> [<target>]
-[14:48:33] [Server thread/INFO]: /gamerule (announceAdvancements|battleInvulnerability|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doPokemonLoot|doPokemonSpawning|doShinyStarters|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|enderPearlsVanishOnDeath|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|healersHealPC|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxCommandForkCount|maxEntityCramming|mobExplosionDropDecay|mobGriefing|mobTargetInBattle|naturalRegeneration|playersNetherPortalCreativeDelay|playersNetherPortalDefaultDelay|playersSleepingPercentage|projectilesCanBreakBlocks|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnChunkRadius|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
-[14:48:33] [Server thread/INFO]: /give <targets> <item> [<count>]
-[14:48:33] [Server thread/INFO]: /help [<command>]
-[14:48:33] [Server thread/INFO]: /item (replace|modify)
-[14:48:33] [Server thread/INFO]: /kick <targets> [<reason>]
-[14:48:33] [Server thread/INFO]: /kill [<targets>]
-[14:48:33] [Server thread/INFO]: /list [uuids]
-[14:48:33] [Server thread/INFO]: /locate (structure|biome|poi)
-[14:48:33] [Server thread/INFO]: /loot (replace|insert|give|spawn)
-[14:48:33] [Server thread/INFO]: /msg <targets> <message>
-[14:48:33] [Server thread/INFO]: /tell -> msg
-[14:48:33] [Server thread/INFO]: /w -> msg
-[14:48:33] [Server thread/INFO]: /particle <name> [<pos>]
-[14:48:33] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
-[14:48:33] [Server thread/INFO]: /playsound <sound> [master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[14:48:33] [Server thread/INFO]: /random (value|roll|reset)
-[14:48:33] [Server thread/INFO]: /reload
-[14:48:33] [Server thread/INFO]: /recipe (give|take)
-[14:48:33] [Server thread/INFO]: /return (<value>|fail|run)
-[14:48:33] [Server thread/INFO]: /ride <target> (mount|dismount)
-[14:48:33] [Server thread/INFO]: /say <message>
-[14:48:33] [Server thread/INFO]: /schedule (function|clear)
-[14:48:33] [Server thread/INFO]: /scoreboard (objectives|players)
-[14:48:33] [Server thread/INFO]: /seed
-[14:48:33] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
-[14:48:33] [Server thread/INFO]: /spawnpoint [<targets>]
-[14:48:33] [Server thread/INFO]: /setworldspawn [<pos>]
-[14:48:33] [Server thread/INFO]: /spectate [<target>]
-[14:48:33] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
-[14:48:33] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[14:48:33] [Server thread/INFO]: /summon <entity> [<pos>]
-[14:48:33] [Server thread/INFO]: /tag <targets> (add|remove|list)
-[14:48:33] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
-[14:48:33] [Server thread/INFO]: /teammsg <message>
-[14:48:33] [Server thread/INFO]: /tm -> teammsg
-[14:48:33] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
-[14:48:33] [Server thread/INFO]: /tp -> teleport
-[14:48:33] [Server thread/INFO]: /tellraw <targets> <message>
-[14:48:33] [Server thread/INFO]: /tick (query|rate|step|sprint|unfreeze|freeze)
-[14:48:33] [Server thread/INFO]: /time (set|add|query)
-[14:48:33] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
-[14:48:33] [Server thread/INFO]: /trigger <objective> [add|set]
-[14:48:33] [Server thread/INFO]: /weather (clear|rain|thunder)
-[14:48:33] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
-[14:48:33] [Server thread/INFO]: /jfr (start|stop)
-[14:48:33] [Server thread/INFO]: /ban-ip <target> [<reason>]
-[14:48:33] [Server thread/INFO]: /banlist [ips|players]
-[14:48:33] [Server thread/INFO]: /ban <targets> [<reason>]
-[14:48:33] [Server thread/INFO]: /deop <targets>
-[14:48:33] [Server thread/INFO]: /op <targets>
-[14:48:33] [Server thread/INFO]: /pardon <targets>
-[14:48:33] [Server thread/INFO]: /pardon-ip <target>
-[14:48:33] [Server thread/INFO]: /perf (start|stop)
-[14:48:33] [Server thread/INFO]: /save-all [flush]
-[14:48:33] [Server thread/INFO]: /save-off
-[14:48:33] [Server thread/INFO]: /save-on
-[14:48:33] [Server thread/INFO]: /setidletimeout <minutes>
-[14:48:33] [Server thread/INFO]: /stop
-[14:48:33] [Server thread/INFO]: /transfer <hostname> [<port>]
-[14:48:33] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
-[14:48:33] [Server thread/INFO]: /spawnpokemon <properties>
-[14:48:33] [Server thread/INFO]: /pokespawn <properties>
-[14:48:33] [Server thread/INFO]: /spawnpokemonat <pos> <properties>
-[14:48:33] [Server thread/INFO]: /pokespawnat <pos> <properties>
-[14:48:33] [Server thread/INFO]: /spawnnpc <class> [<level>]
-[14:48:33] [Server thread/INFO]: /npcspawn <class> [<level>]
-[14:48:33] [Server thread/INFO]: /spawnnpcat <pos> <class> [<level>]
-[14:48:33] [Server thread/INFO]: /npcspawnat <pos> <class> [<level>]
-[14:48:33] [Server thread/INFO]: /givepokemon <properties>
-[14:48:33] [Server thread/INFO]: /pokegive <properties>
-[14:48:33] [Server thread/INFO]: /givepokemonother <player> <properties>
-[14:48:33] [Server thread/INFO]: /pokegiveother <player> <properties>
-[14:48:33] [Server thread/INFO]: /takepokemon <player> <slot>
-[14:48:33] [Server thread/INFO]: /changeeyeheight <pokemon> (standing|flying|swimming)
-[14:48:33] [Server thread/INFO]: /changescaleandsize <pokemon> [<scale>]
-[14:48:33] [Server thread/INFO]: /changewalkspeed [<pokemon>]
-[14:48:33] [Server thread/INFO]: /transformmodelpart <transform> [<part>]
-[14:48:33] [Server thread/INFO]: /testcommand
-[14:48:33] [Server thread/INFO]: /reloadshowdown
-[14:48:33] [Server thread/INFO]: /pokemonedit <slot> <properties>
-[14:48:33] [Server thread/INFO]: /pokeedit <slot> <properties>
-[14:48:33] [Server thread/INFO]: /pokemoneditother <player> <slot> <properties>
-[14:48:33] [Server thread/INFO]: /pokeeditother <player> <slot> <properties>
-[14:48:33] [Server thread/INFO]: /teach <player> <slot> <move>
-[14:48:33] [Server thread/INFO]: /levelup <player> <slot>
-[14:48:33] [Server thread/INFO]: /healpokemon [<player>]
-[14:48:33] [Server thread/INFO]: /pokeheal [<player>]
-[14:48:33] [Server thread/INFO]: /stopbattle <player>
-[14:48:33] [Server thread/INFO]: /checkspawn
-[14:48:33] [Server thread/INFO]: /openstarterscreen <player>
-[14:48:33] [Server thread/INFO]: /friendship <slot>
-[14:48:33] [Server thread/INFO]: /held_item <target> <slot> <item>
-[14:48:33] [Server thread/INFO]: /pc [<box>]
-[14:48:33] [Server thread/INFO]: /spawnpokemonfrompool [<amount>]
-[14:48:33] [Server thread/INFO]: /forcespawn [<amount>]
-[14:48:33] [Server thread/INFO]: /pokebox <player> <slot> [<box>]
-[14:48:33] [Server thread/INFO]: /pokeboxall <player> [<box>]
-[14:48:33] [Server thread/INFO]: /pokedex (grant|revoke|printcalculations)
-[14:48:33] [Server thread/INFO]: /teststore <player> <store> <properties>
-[14:48:33] [Server thread/INFO]: /querylearnset <player> <slot> <move>
-[14:48:33] [Server thread/INFO]: /testpcslot <player> <box> <slot> <properties>
-[14:48:33] [Server thread/INFO]: /testpartyslot <player> <slot> <properties>
-[14:48:33] [Server thread/INFO]: /clearparty <player>
-[14:48:33] [Server thread/INFO]: /clearpc <player>
-[14:48:33] [Server thread/INFO]: /pokemonrestart [<reset_starters>]
-[14:48:33] [Server thread/INFO]: /pokerestart [<reset_starters>]
-[14:48:33] [Server thread/INFO]: /pokemonrestartother <player> [<reset_starters>]
-[14:48:33] [Server thread/INFO]: /pokerestartother <player> [<reset_starters>]
-[14:48:33] [Server thread/INFO]: /bedrockparticle <effect> (<target>|<world>)
-[14:48:33] [Server thread/INFO]: /opendialogue <dialogue> <player>
-[14:48:33] [Server thread/INFO]: /npcdelete [<target>]
-[14:48:33] [Server thread/INFO]: /abandonmultiteam
-[14:48:33] [Server thread/INFO]: /abandonmultibattleteam
-[14:48:33] [Server thread/INFO]: /applyplayertexture <player>
-[14:48:33] [Server thread/INFO]: /renamebox <player> <box> <name>
-[14:48:33] [Server thread/INFO]: /changewallpaper <player> <box> <wallpaper>
-[14:48:33] [Server thread/INFO]: /runmolang <molang> [<player>|<npc>|<pokemon>]
-[14:48:33] [Server thread/INFO]: /runmolangscript <script> [<player>|<npc>|<pokemon>]
-[14:48:33] [Server thread/INFO]: /spectateBattle <player>
-[14:48:33] [Server thread/INFO]: /cobblemonconfig [reload]
-[14:48:33] [Server thread/INFO]: /unlockpcboxwallpaper <player> <wallpaper> [<playsSound>]
-[14:48:33] [Server thread/INFO]: /boxcount (query|add|remove|set)
-[14:48:33] [Server thread/INFO]: /givemark <player> <slot> <mark>
-[14:48:33] [Server thread/INFO]: /takemark <player> <slot> <mark>
-[14:48:33] [Server thread/INFO]: /giveallmarks <player> <slot>
-[14:48:33] [Server thread/INFO]: /pcsearch (<properties>|other)
-[14:48:33] [Server thread/INFO]: /pctake <player> <box> <slot>
-[14:48:33] [Server thread/INFO]: /cobblemon info
-[14:48:33] [Server thread/INFO]: /calculateseatpositions <species> <aspects> <pose>
-[14:48:55] [User Authenticator #1/INFO]: UUID of player TheVi0letGamer is 8aa42dcb-5881-40f2-9264-cd52dada10a2
-[14:48:57] [Server thread/INFO]: TheVi0letGamer[/192.168.6.130:35164] logged in with entity id 32 at (-75.24461088274508, 63.0, 74.69999998807907)
-[14:48:57] [Server thread/INFO]: TheVi0letGamer joined the game
-[14:49:01] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[14:49:01] [Server thread/INFO]: <--[HERE]
-[14:49:13] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[14:49:13] [Server thread/INFO]: <--[HERE]
-[14:49:19] [Server thread/INFO]: /advancement (grant|revoke)
-[14:49:19] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
-[14:49:19] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
-[14:49:19] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
-[14:49:19] [Server thread/INFO]: /clear [<targets>]
-[14:49:19] [Server thread/INFO]: /clone (<begin>|from)
-[14:49:19] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
-[14:49:19] [Server thread/INFO]: /data (merge|get|remove|modify)
-[14:49:19] [Server thread/INFO]: /datapack (enable|disable|list)
-[14:49:19] [Server thread/INFO]: /debug (start|stop|function)
-[14:49:19] [Server thread/INFO]: /defaultgamemode <gamemode>
-[14:49:19] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
-[14:49:19] [Server thread/INFO]: /effect (clear|give)
-[14:49:19] [Server thread/INFO]: /me <action>
-[14:49:19] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
-[14:49:19] [Server thread/INFO]: /experience (add|set|query)
-[14:49:19] [Server thread/INFO]: /xp -> experience
-[14:49:19] [Server thread/INFO]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
-[14:49:19] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
-[14:49:19] [Server thread/INFO]: /forceload (add|remove|query)
-[14:49:19] [Server thread/INFO]: /function <name> [<arguments>|with]
-[14:49:19] [Server thread/INFO]: /gamemode <gamemode> [<target>]
-[14:49:19] [Server thread/INFO]: /gamerule (announceAdvancements|battleInvulnerability|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doPokemonLoot|doPokemonSpawning|doShinyStarters|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|enderPearlsVanishOnDeath|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|healersHealPC|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxCommandForkCount|maxEntityCramming|mobExplosionDropDecay|mobGriefing|mobTargetInBattle|naturalRegeneration|playersNetherPortalCreativeDelay|playersNetherPortalDefaultDelay|playersSleepingPercentage|projectilesCanBreakBlocks|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnChunkRadius|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
-[14:49:19] [Server thread/INFO]: /give <targets> <item> [<count>]
-[14:49:19] [Server thread/INFO]: /help [<command>]
-[14:49:19] [Server thread/INFO]: /item (replace|modify)
-[14:49:19] [Server thread/INFO]: /kick <targets> [<reason>]
-[14:49:19] [Server thread/INFO]: /kill [<targets>]
-[14:49:19] [Server thread/INFO]: /list [uuids]
-[14:49:19] [Server thread/INFO]: /locate (structure|biome|poi)
-[14:49:19] [Server thread/INFO]: /loot (replace|insert|give|spawn)
-[14:49:19] [Server thread/INFO]: /msg <targets> <message>
-[14:49:19] [Server thread/INFO]: /tell -> msg
-[14:49:19] [Server thread/INFO]: /w -> msg
-[14:49:19] [Server thread/INFO]: /particle <name> [<pos>]
-[14:49:19] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
-[14:49:19] [Server thread/INFO]: /playsound <sound> [master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[14:49:19] [Server thread/INFO]: /random (value|roll|reset)
-[14:49:19] [Server thread/INFO]: /reload
-[14:49:19] [Server thread/INFO]: /recipe (give|take)
-[14:49:19] [Server thread/INFO]: /return (<value>|fail|run)
-[14:49:19] [Server thread/INFO]: /ride <target> (mount|dismount)
-[14:49:19] [Server thread/INFO]: /say <message>
-[14:49:19] [Server thread/INFO]: /schedule (function|clear)
-[14:49:19] [Server thread/INFO]: /scoreboard (objectives|players)
-[14:49:19] [Server thread/INFO]: /seed
-[14:49:19] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
-[14:49:19] [Server thread/INFO]: /spawnpoint [<targets>]
-[14:49:19] [Server thread/INFO]: /setworldspawn [<pos>]
-[14:49:19] [Server thread/INFO]: /spectate [<target>]
-[14:49:19] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
-[14:49:19] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[14:49:19] [Server thread/INFO]: /summon <entity> [<pos>]
-[14:49:19] [Server thread/INFO]: /tag <targets> (add|remove|list)
-[14:49:19] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
-[14:49:19] [Server thread/INFO]: /teammsg <message>
-[14:49:19] [Server thread/INFO]: /tm -> teammsg
-[14:49:19] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
-[14:49:19] [Server thread/INFO]: /tp -> teleport
-[14:49:19] [Server thread/INFO]: /tellraw <targets> <message>
-[14:49:19] [Server thread/INFO]: /tick (query|rate|step|sprint|unfreeze|freeze)
-[14:49:19] [Server thread/INFO]: /time (set|add|query)
-[14:49:19] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
-[14:49:19] [Server thread/INFO]: /trigger <objective> [add|set]
-[14:49:19] [Server thread/INFO]: /weather (clear|rain|thunder)
-[14:49:19] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
-[14:49:19] [Server thread/INFO]: /jfr (start|stop)
-[14:49:19] [Server thread/INFO]: /ban-ip <target> [<reason>]
-[14:49:19] [Server thread/INFO]: /banlist [ips|players]
-[14:49:19] [Server thread/INFO]: /ban <targets> [<reason>]
-[14:49:19] [Server thread/INFO]: /deop <targets>
-[14:49:19] [Server thread/INFO]: /op <targets>
-[14:49:19] [Server thread/INFO]: /pardon <targets>
-[14:49:19] [Server thread/INFO]: /pardon-ip <target>
-[14:49:19] [Server thread/INFO]: /perf (start|stop)
-[14:49:19] [Server thread/INFO]: /save-all [flush]
-[14:49:19] [Server thread/INFO]: /save-off
-[14:49:19] [Server thread/INFO]: /save-on
-[14:49:19] [Server thread/INFO]: /setidletimeout <minutes>
-[14:49:19] [Server thread/INFO]: /stop
-[14:49:19] [Server thread/INFO]: /transfer <hostname> [<port>]
-[14:49:19] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
-[14:49:19] [Server thread/INFO]: /spawnpokemon <properties>
-[14:49:19] [Server thread/INFO]: /pokespawn <properties>
-[14:49:19] [Server thread/INFO]: /spawnpokemonat <pos> <properties>
-[14:49:19] [Server thread/INFO]: /pokespawnat <pos> <properties>
-[14:49:19] [Server thread/INFO]: /spawnnpc <class> [<level>]
-[14:49:19] [Server thread/INFO]: /npcspawn <class> [<level>]
-[14:49:19] [Server thread/INFO]: /spawnnpcat <pos> <class> [<level>]
-[14:49:19] [Server thread/INFO]: /npcspawnat <pos> <class> [<level>]
-[14:49:19] [Server thread/INFO]: /givepokemon <properties>
-[14:49:19] [Server thread/INFO]: /pokegive <properties>
-[14:49:19] [Server thread/INFO]: /givepokemonother <player> <properties>
-[14:49:19] [Server thread/INFO]: /pokegiveother <player> <properties>
-[14:49:19] [Server thread/INFO]: /takepokemon <player> <slot>
-[14:49:19] [Server thread/INFO]: /changeeyeheight <pokemon> (standing|flying|swimming)
-[14:49:19] [Server thread/INFO]: /changescaleandsize <pokemon> [<scale>]
-[14:49:19] [Server thread/INFO]: /changewalkspeed [<pokemon>]
-[14:49:19] [Server thread/INFO]: /transformmodelpart <transform> [<part>]
-[14:49:19] [Server thread/INFO]: /testcommand
-[14:49:19] [Server thread/INFO]: /reloadshowdown
-[14:49:19] [Server thread/INFO]: /pokemonedit <slot> <properties>
-[14:49:19] [Server thread/INFO]: /pokeedit <slot> <properties>
-[14:49:19] [Server thread/INFO]: /pokemoneditother <player> <slot> <properties>
-[14:49:19] [Server thread/INFO]: /pokeeditother <player> <slot> <properties>
-[14:49:19] [Server thread/INFO]: /teach <player> <slot> <move>
-[14:49:19] [Server thread/INFO]: /levelup <player> <slot>
-[14:49:19] [Server thread/INFO]: /healpokemon [<player>]
-[14:49:19] [Server thread/INFO]: /pokeheal [<player>]
-[14:49:19] [Server thread/INFO]: /stopbattle <player>
-[14:49:19] [Server thread/INFO]: /checkspawn
-[14:49:19] [Server thread/INFO]: /openstarterscreen <player>
-[14:49:19] [Server thread/INFO]: /friendship <slot>
-[14:49:19] [Server thread/INFO]: /held_item <target> <slot> <item>
-[14:49:19] [Server thread/INFO]: /pc [<box>]
-[14:49:19] [Server thread/INFO]: /spawnpokemonfrompool [<amount>]
-[14:49:19] [Server thread/INFO]: /forcespawn [<amount>]
-[14:49:19] [Server thread/INFO]: /pokebox <player> <slot> [<box>]
-[14:49:19] [Server thread/INFO]: /pokeboxall <player> [<box>]
-[14:49:19] [Server thread/INFO]: /pokedex (grant|revoke|printcalculations)
-[14:49:19] [Server thread/INFO]: /teststore <player> <store> <properties>
-[14:49:19] [Server thread/INFO]: /querylearnset <player> <slot> <move>
-[14:49:19] [Server thread/INFO]: /testpcslot <player> <box> <slot> <properties>
-[14:49:19] [Server thread/INFO]: /testpartyslot <player> <slot> <properties>
-[14:49:19] [Server thread/INFO]: /clearparty <player>
-[14:49:19] [Server thread/INFO]: /clearpc <player>
-[14:49:19] [Server thread/INFO]: /pokemonrestart [<reset_starters>]
-[14:49:19] [Server thread/INFO]: /pokerestart [<reset_starters>]
-[14:49:19] [Server thread/INFO]: /pokemonrestartother <player> [<reset_starters>]
-[14:49:19] [Server thread/INFO]: /pokerestartother <player> [<reset_starters>]
-[14:49:19] [Server thread/INFO]: /bedrockparticle <effect> (<target>|<world>)
-[14:49:19] [Server thread/INFO]: /opendialogue <dialogue> <player>
-[14:49:19] [Server thread/INFO]: /npcdelete [<target>]
-[14:49:19] [Server thread/INFO]: /abandonmultiteam
-[14:49:19] [Server thread/INFO]: /abandonmultibattleteam
-[14:49:19] [Server thread/INFO]: /applyplayertexture <player>
-[14:49:19] [Server thread/INFO]: /renamebox <player> <box> <name>
-[14:49:19] [Server thread/INFO]: /changewallpaper <player> <box> <wallpaper>
-[14:49:19] [Server thread/INFO]: /runmolang <molang> [<player>|<npc>|<pokemon>]
-[14:49:19] [Server thread/INFO]: /runmolangscript <script> [<player>|<npc>|<pokemon>]
-[14:49:19] [Server thread/INFO]: /spectateBattle <player>
-[14:49:19] [Server thread/INFO]: /cobblemonconfig [reload]
-[14:49:19] [Server thread/INFO]: /unlockpcboxwallpaper <player> <wallpaper> [<playsSound>]
-[14:49:19] [Server thread/INFO]: /boxcount (query|add|remove|set)
-[14:49:19] [Server thread/INFO]: /givemark <player> <slot> <mark>
-[14:49:19] [Server thread/INFO]: /takemark <player> <slot> <mark>
-[14:49:19] [Server thread/INFO]: /giveallmarks <player> <slot>
-[14:49:19] [Server thread/INFO]: /pcsearch (<properties>|other)
-[14:49:19] [Server thread/INFO]: /pctake <player> <box> <slot>
-[14:49:19] [Server thread/INFO]: /cobblemon info
-[14:49:19] [Server thread/INFO]: /calculateseatpositions <species> <aspects> <pose>
-[14:49:41] [Server thread/INFO]: TheVi0letGamer was killed
-[14:49:41] [Server thread/INFO]: Killed TheVi0letGamer
-[14:49:50] [Server thread/WARN]: TheVi0letGamer moved too quickly! -8.255389117254921,1.0,-81.19999998807907
-[14:50:06] [Server thread/INFO]: Stopping the server
-[14:50:06] [Server thread/INFO]: Stopping server
-[14:50:06] [Server thread/INFO]: Saving players
-[14:50:06] [Server thread/INFO]: TheVi0letGamer lost connection: Server closed
-[14:50:06] [Server thread/INFO]: TheVi0letGamer left the game
-[14:50:06] [Server thread/INFO]: Saving worlds
-[14:50:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14:50:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[14:50:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[14:50:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:50:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:50:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:50:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:53:04] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/pedro/cobblemon-server/libraries/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[15:53:05] [main/INFO]: Compatibility level set to JAVA_21
+[15:53:05] [main/WARN]: Error loading class: net/minecraft/class_4224 (java.lang.ClassNotFoundException: net/minecraft/class_4224)
+[15:53:05] [main/WARN]: @Mixin target net.minecraft.class_4224 was not found mixins.cobblemon-common.json:ChannelMixin from mod cobblemon
+[15:53:05] [main/WARN]: Error loading class: juuxel/adorn/block/variant/BlockVariantSets (java.lang.ClassNotFoundException: juuxel/adorn/block/variant/BlockVariantSets)
+[15:53:05] [main/WARN]: @Mixin target juuxel.adorn.block.variant.BlockVariantSets was not found mixins.cobblemon-common.json:invoker.AdornRegisterInvoker from mod cobblemon
+[15:53:05] [main/WARN]: Error loading class: net/minecraft/class_1140 (java.lang.ClassNotFoundException: net/minecraft/class_1140)
+[15:53:05] [main/WARN]: @Mixin target net.minecraft.class_1140 was not found mixins.cobblemon-fabric.json:FabricSoundEngineMixin from mod cobblemon
+[15:53:06] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[15:53:15] [main/INFO]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
+[15:53:15] [main/INFO]: Launching Cobblemon 1.7.3 
+[15:53:17] [main/ERROR]: No data fixer registered for cobblemon:pokemon
+[15:53:17] [main/ERROR]: No data fixer registered for cobblemon:empty_pokeball
+[15:53:17] [main/ERROR]: No data fixer registered for cobblemon:boat
+[15:53:17] [main/ERROR]: No data fixer registered for cobblemon:chest_boat
+[15:53:17] [main/ERROR]: No data fixer registered for cobblemon:poke_bobber
+[15:53:17] [main/ERROR]: No data fixer registered for cobblemon:generic_bedrock
+[15:53:17] [main/ERROR]: No data fixer registered for cobblemon:npc
+[15:53:19] [main/INFO]: Starting the Best Spawner...
+[15:53:19] [main/INFO]: Loaded 7 spawning condition types.
+[15:53:19] [main/INFO]: Loaded 6 spawnable position types.
+[15:53:19] [main/INFO]: Loaded 3 spawn detail types.
+[15:53:19] [Cobblemon Showdown/INFO]: Starting showdown service...
+[15:53:21] [Cobblemon Showdown/INFO]: Showdown has been started!
+[15:53:21] [main/INFO]: Note: Cobblemon data registries are only loaded once per server instance as Pokémon species are not safe to reload.
+[15:53:21] [main/INFO]: Registered the cobblemon:molang registry
+[15:53:21] [main/INFO]: Registered the cobblemon:species_features registry
+[15:53:21] [main/INFO]: Registered the cobblemon:global_species_features registry
+[15:53:21] [main/INFO]: Registered the cobblemon:species_feature_assignments registry
+[15:53:21] [main/INFO]: Registered the cobblemon:action_effects registry
+[15:53:21] [main/INFO]: Registered the cobblemon:moves registry
+[15:53:21] [main/INFO]: Registered the cobblemon:abilities registry
+[15:53:21] [main/INFO]: Registered the cobblemon:behaviours registry
+[15:53:21] [main/INFO]: Registered the cobblemon:species registry
+[15:53:21] [main/INFO]: Registered the cobblemon:species_additions registry
+[15:53:21] [main/INFO]: Registered the cobblemon:pokeballs registry
+[15:53:21] [main/INFO]: Registered the cobblemon:properties_tab_completion registry
+[15:53:21] [main/INFO]: Registered the cobblemon:spawn_detail_presets registry
+[15:53:21] [main/INFO]: Registered the cobblemon:spawn_rules registry
+[15:53:21] [main/INFO]: Registered the cobblemon:mechanics registry
+[15:53:21] [main/INFO]: Registered the cobblemon:bag_items registry
+[15:53:21] [main/INFO]: Registered the cobblemon:held_items registry
+[15:53:21] [main/INFO]: Registered the cobblemon:dialogues registry
+[15:53:21] [main/INFO]: Registered the cobblemon:natural_materials registry
+[15:53:21] [main/INFO]: Registered the cobblemon:fossils registry
+[15:53:22] [main/INFO]: Registered the cobblemon:npc_preset registry
+[15:53:22] [main/INFO]: Registered the cobblemon:npc registry
+[15:53:22] [main/INFO]: Registered the cobblemon:dex_entries registry
+[15:53:22] [main/INFO]: Registered the cobblemon:dex_entry_additions registry
+[15:53:22] [main/INFO]: Registered the cobblemon:dexes registry
+[15:53:22] [main/INFO]: Registered the cobblemon:dex_additions registry
+[15:53:22] [main/INFO]: Registered the cobblemon:cosmetic_items registry
+[15:53:22] [main/INFO]: Registered the cobblemon:callbacks registry
+[15:53:22] [main/INFO]: Registered the cobblemon:unlockable_pc_box_wallpapers registry
+[15:53:22] [main/INFO]: Registered the cobblemon:marks registry
+[15:53:22] [main/INFO]: Registered the cobblemon:starters registry
+[15:53:22] [main/INFO]: Registered the cobblemon:spawn_pool_world registry
+[15:53:22] [main/INFO]: Registered the cobblemon:pokerods registry
+[15:53:22] [main/INFO]: Registered the cobblemon:berries registry
+[15:53:22] [main/INFO]: Registered the cobblemon:seasonings registry
+[15:53:22] [main/INFO]: Registered the cobblemon:pokemon_interactions registry
+[15:53:22] [main/INFO]: Registered the cobblemon:spawn_bait_effects registry
+[15:53:22] [main/INFO]: Registered the cobblemon:ride_settings registry
+[15:53:22] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:53:26] [main/INFO]: Loaded 2040 recipes
+[15:53:26] [main/INFO]: Loaded 2152 advancements
+[15:53:26] [main/INFO]: Loaded 10 server scripts and 1 client scripts
+[15:53:31] [main/INFO]: Loaded 936 moves
+[15:53:32] [main/INFO]: Loaded 314 abilities
+[15:53:32] [main/INFO]: Loaded 48 entity behaviours
+[15:53:33] [main/INFO]: Finished additions
+[15:53:34] [cobblemon Datafixer Bootstrap/INFO]: 4 Datafixer optimizations took 44 milliseconds
+[15:53:35] [main/INFO]: Loaded 1025 Pokémon species
+[15:53:35] [main/INFO]: Loaded 28 spawn detail presets.
+[15:53:35] [main/INFO]: Starting dummy Showdown battle to force it to pre-load data.
+[15:53:37] [main/INFO]: Imported 266 held item IDs from showdown
+[15:53:37] [main/INFO]: Loaded 15 fossils
+[15:53:37] [main/ERROR]: Invalid path in mod resource-pack cobblemon: cobblemon:dex_entry_additions/README.md, ignoring
+[15:53:37] [main/ERROR]: Invalid path in mod resource-pack cobblemon: cobblemon:dex_additions/README.md, ignoring
+[15:53:37] [main/INFO]: Loaded 6 callbacks and 0 client callbacks
+[15:53:37] [main/INFO]: Loaded 168 marks
+[15:53:40] [main/INFO]: Loaded 70 berries
+[15:53:40] [main/INFO]: Loaded 137 Pokémon interaction sets
+[15:53:43] [main/INFO]: Applied 616 biome modifications to 64 of 64 new biomes in 25.84 ms
+[15:53:43] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[15:53:43] [Server thread/INFO]: Loading properties
+[15:53:43] [Server thread/INFO]: Default game type: SURVIVAL
+[15:53:43] [Server thread/INFO]: Generating keypair
+[15:53:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:53:43] [Server thread/INFO]: Using epoll channel type
+[15:53:43] [Server thread/INFO]: Preparing level "world"
+[15:53:46] [User Authenticator #1/INFO]: UUID of player TheVi0letGamer is 8aa42dcb-5881-40f2-9264-cd52dada10a2
+[15:53:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:53:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:53:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:53:47] [Server thread/INFO]: Time elapsed: 650 ms
+[15:53:47] [Server thread/INFO]: Done (3.829s)! For help, type "help"
+[15:53:47] [Server thread/INFO]: Optimizing spawn pools...
+[15:53:49] [Server thread/INFO]: TheVi0letGamer[/192.168.6.130:42838] logged in with entity id 5 at (-291.34585757222425, 73.0, -79.28686396032806)
+[15:53:49] [Server thread/INFO]: TheVi0letGamer joined the game
+[15:54:00] [Server thread/INFO]: /advancement (grant|revoke)
+[15:54:00] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
+[15:54:00] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
+[15:54:00] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
+[15:54:00] [Server thread/INFO]: /clear [<targets>]
+[15:54:00] [Server thread/INFO]: /clone (<begin>|from)
+[15:54:00] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
+[15:54:00] [Server thread/INFO]: /data (merge|get|remove|modify)
+[15:54:00] [Server thread/INFO]: /datapack (enable|disable|list)
+[15:54:00] [Server thread/INFO]: /debug (start|stop|function)
+[15:54:00] [Server thread/INFO]: /defaultgamemode <gamemode>
+[15:54:00] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
+[15:54:00] [Server thread/INFO]: /effect (clear|give)
+[15:54:00] [Server thread/INFO]: /me <action>
+[15:54:00] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
+[15:54:00] [Server thread/INFO]: /experience (add|set|query)
+[15:54:00] [Server thread/INFO]: /xp -> experience
+[15:54:00] [Server thread/INFO]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
+[15:54:00] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
+[15:54:00] [Server thread/INFO]: /forceload (add|remove|query)
+[15:54:00] [Server thread/INFO]: /function <name> [<arguments>|with]
+[15:54:00] [Server thread/INFO]: /gamemode <gamemode> [<target>]
+[15:54:00] [Server thread/INFO]: /gamerule (announceAdvancements|battleInvulnerability|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doPokemonLoot|doPokemonSpawning|doShinyStarters|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|enderPearlsVanishOnDeath|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|healersHealPC|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxCommandForkCount|maxEntityCramming|mobExplosionDropDecay|mobGriefing|mobTargetInBattle|naturalRegeneration|playersNetherPortalCreativeDelay|playersNetherPortalDefaultDelay|playersSleepingPercentage|projectilesCanBreakBlocks|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnChunkRadius|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
+[15:54:00] [Server thread/INFO]: /give <targets> <item> [<count>]
+[15:54:00] [Server thread/INFO]: /help [<command>]
+[15:54:00] [Server thread/INFO]: /item (replace|modify)
+[15:54:00] [Server thread/INFO]: /kick <targets> [<reason>]
+[15:54:00] [Server thread/INFO]: /kill [<targets>]
+[15:54:00] [Server thread/INFO]: /list [uuids]
+[15:54:00] [Server thread/INFO]: /locate (structure|biome|poi)
+[15:54:00] [Server thread/INFO]: /loot (replace|insert|give|spawn)
+[15:54:00] [Server thread/INFO]: /msg <targets> <message>
+[15:54:00] [Server thread/INFO]: /tell -> msg
+[15:54:00] [Server thread/INFO]: /w -> msg
+[15:54:00] [Server thread/INFO]: /particle <name> [<pos>]
+[15:54:00] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
+[15:54:00] [Server thread/INFO]: /playsound <sound> [master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[15:54:00] [Server thread/INFO]: /random (value|roll|reset)
+[15:54:00] [Server thread/INFO]: /reload
+[15:54:00] [Server thread/INFO]: /recipe (give|take)
+[15:54:00] [Server thread/INFO]: /return (<value>|fail|run)
+[15:54:00] [Server thread/INFO]: /ride <target> (mount|dismount)
+[15:54:00] [Server thread/INFO]: /say <message>
+[15:54:00] [Server thread/INFO]: /schedule (function|clear)
+[15:54:00] [Server thread/INFO]: /scoreboard (objectives|players)
+[15:54:00] [Server thread/INFO]: /seed
+[15:54:00] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
+[15:54:00] [Server thread/INFO]: /spawnpoint [<targets>]
+[15:54:00] [Server thread/INFO]: /setworldspawn [<pos>]
+[15:54:00] [Server thread/INFO]: /spectate [<target>]
+[15:54:00] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[15:54:00] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[15:54:00] [Server thread/INFO]: /summon <entity> [<pos>]
+[15:54:00] [Server thread/INFO]: /tag <targets> (add|remove|list)
+[15:54:00] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
+[15:54:00] [Server thread/INFO]: /teammsg <message>
+[15:54:00] [Server thread/INFO]: /tm -> teammsg
+[15:54:00] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
+[15:54:00] [Server thread/INFO]: /tp -> teleport
+[15:54:00] [Server thread/INFO]: /tellraw <targets> <message>
+[15:54:00] [Server thread/INFO]: /tick (query|rate|step|sprint|unfreeze|freeze)
+[15:54:00] [Server thread/INFO]: /time (set|add|query)
+[15:54:00] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[15:54:00] [Server thread/INFO]: /trigger <objective> [add|set]
+[15:54:00] [Server thread/INFO]: /weather (clear|rain|thunder)
+[15:54:00] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
+[15:54:00] [Server thread/INFO]: /jfr (start|stop)
+[15:54:00] [Server thread/INFO]: /ban-ip <target> [<reason>]
+[15:54:00] [Server thread/INFO]: /banlist [ips|players]
+[15:54:00] [Server thread/INFO]: /ban <targets> [<reason>]
+[15:54:00] [Server thread/INFO]: /deop <targets>
+[15:54:00] [Server thread/INFO]: /op <targets>
+[15:54:00] [Server thread/INFO]: /pardon <targets>
+[15:54:00] [Server thread/INFO]: /pardon-ip <target>
+[15:54:00] [Server thread/INFO]: /perf (start|stop)
+[15:54:00] [Server thread/INFO]: /save-all [flush]
+[15:54:00] [Server thread/INFO]: /save-off
+[15:54:00] [Server thread/INFO]: /save-on
+[15:54:00] [Server thread/INFO]: /setidletimeout <minutes>
+[15:54:00] [Server thread/INFO]: /stop
+[15:54:00] [Server thread/INFO]: /transfer <hostname> [<port>]
+[15:54:00] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
+[15:54:00] [Server thread/INFO]: /spawnpokemon <properties>
+[15:54:00] [Server thread/INFO]: /pokespawn <properties>
+[15:54:00] [Server thread/INFO]: /spawnpokemonat <pos> <properties>
+[15:54:00] [Server thread/INFO]: /pokespawnat <pos> <properties>
+[15:54:00] [Server thread/INFO]: /spawnnpc <class> [<level>]
+[15:54:00] [Server thread/INFO]: /npcspawn <class> [<level>]
+[15:54:00] [Server thread/INFO]: /spawnnpcat <pos> <class> [<level>]
+[15:54:00] [Server thread/INFO]: /npcspawnat <pos> <class> [<level>]
+[15:54:00] [Server thread/INFO]: /givepokemon <properties>
+[15:54:00] [Server thread/INFO]: /pokegive <properties>
+[15:54:00] [Server thread/INFO]: /givepokemonother <player> <properties>
+[15:54:00] [Server thread/INFO]: /pokegiveother <player> <properties>
+[15:54:00] [Server thread/INFO]: /takepokemon <player> <slot>
+[15:54:00] [Server thread/INFO]: /changeeyeheight <pokemon> (standing|flying|swimming)
+[15:54:00] [Server thread/INFO]: /changescaleandsize <pokemon> [<scale>]
+[15:54:00] [Server thread/INFO]: /changewalkspeed [<pokemon>]
+[15:54:00] [Server thread/INFO]: /transformmodelpart <transform> [<part>]
+[15:54:00] [Server thread/INFO]: /testcommand
+[15:54:00] [Server thread/INFO]: /reloadshowdown
+[15:54:00] [Server thread/INFO]: /pokemonedit <slot> <properties>
+[15:54:00] [Server thread/INFO]: /pokeedit <slot> <properties>
+[15:54:00] [Server thread/INFO]: /pokemoneditother <player> <slot> <properties>
+[15:54:00] [Server thread/INFO]: /pokeeditother <player> <slot> <properties>
+[15:54:00] [Server thread/INFO]: /teach <player> <slot> <move>
+[15:54:00] [Server thread/INFO]: /levelup <player> <slot>
+[15:54:00] [Server thread/INFO]: /healpokemon [<player>]
+[15:54:00] [Server thread/INFO]: /pokeheal [<player>]
+[15:54:00] [Server thread/INFO]: /stopbattle <player>
+[15:54:00] [Server thread/INFO]: /checkspawn
+[15:54:00] [Server thread/INFO]: /openstarterscreen <player>
+[15:54:00] [Server thread/INFO]: /friendship <slot>
+[15:54:00] [Server thread/INFO]: /held_item <target> <slot> <item>
+[15:54:00] [Server thread/INFO]: /pc [<box>]
+[15:54:00] [Server thread/INFO]: /spawnpokemonfrompool [<amount>]
+[15:54:00] [Server thread/INFO]: /forcespawn [<amount>]
+[15:54:00] [Server thread/INFO]: /pokebox <player> <slot> [<box>]
+[15:54:00] [Server thread/INFO]: /pokeboxall <player> [<box>]
+[15:54:00] [Server thread/INFO]: /pokedex (grant|revoke|printcalculations)
+[15:54:00] [Server thread/INFO]: /teststore <player> <store> <properties>
+[15:54:00] [Server thread/INFO]: /querylearnset <player> <slot> <move>
+[15:54:00] [Server thread/INFO]: /testpcslot <player> <box> <slot> <properties>
+[15:54:00] [Server thread/INFO]: /testpartyslot <player> <slot> <properties>
+[15:54:00] [Server thread/INFO]: /clearparty <player>
+[15:54:00] [Server thread/INFO]: /clearpc <player>
+[15:54:00] [Server thread/INFO]: /pokemonrestart [<reset_starters>]
+[15:54:00] [Server thread/INFO]: /pokerestart [<reset_starters>]
+[15:54:00] [Server thread/INFO]: /pokemonrestartother <player> [<reset_starters>]
+[15:54:00] [Server thread/INFO]: /pokerestartother <player> [<reset_starters>]
+[15:54:00] [Server thread/INFO]: /bedrockparticle <effect> (<target>|<world>)
+[15:54:00] [Server thread/INFO]: /opendialogue <dialogue> <player>
+[15:54:00] [Server thread/INFO]: /npcdelete [<target>]
+[15:54:00] [Server thread/INFO]: /abandonmultiteam
+[15:54:00] [Server thread/INFO]: /abandonmultibattleteam
+[15:54:00] [Server thread/INFO]: /applyplayertexture <player>
+[15:54:00] [Server thread/INFO]: /renamebox <player> <box> <name>
+[15:54:00] [Server thread/INFO]: /changewallpaper <player> <box> <wallpaper>
+[15:54:00] [Server thread/INFO]: /runmolang <molang> [<player>|<npc>|<pokemon>]
+[15:54:00] [Server thread/INFO]: /runmolangscript <script> [<player>|<npc>|<pokemon>]
+[15:54:00] [Server thread/INFO]: /spectateBattle <player>
+[15:54:00] [Server thread/INFO]: /cobblemonconfig [reload]
+[15:54:00] [Server thread/INFO]: /unlockpcboxwallpaper <player> <wallpaper> [<playsSound>]
+[15:54:00] [Server thread/INFO]: /boxcount (query|add|remove|set)
+[15:54:00] [Server thread/INFO]: /givemark <player> <slot> <mark>
+[15:54:00] [Server thread/INFO]: /takemark <player> <slot> <mark>
+[15:54:00] [Server thread/INFO]: /giveallmarks <player> <slot>
+[15:54:00] [Server thread/INFO]: /pcsearch (<properties>|other)
+[15:54:00] [Server thread/INFO]: /pctake <player> <box> <slot>
+[15:54:00] [Server thread/INFO]: /cobblemon info
+[15:54:00] [Server thread/INFO]: /calculateseatpositions <species> <aspects> <pose>
+[15:54:24] [Server thread/INFO]: Unknown item 'minecraft:pokeball'
+[15:54:24] [Server thread/INFO]: give @a pokeball 64<--[HERE]
+[15:54:45] [Server thread/INFO]: Unknown item 'cobblemon:pokeball'
+[15:54:45] [Server thread/INFO]: give @a cobblemon:pokeball 64<--[HERE]
+[15:55:27] [Server thread/INFO]: Applied effect Speed to TheVi0letGamer
+[15:55:28] [Server thread/WARN]: TheVi0letGamer moved too quickly! -9.39640807499569,0.0,4.183471724956782
+[15:55:28] [Server thread/WARN]: TheVi0letGamer moved too quickly! -9.314879492742989,0.0,4.1473571712232555
+[15:55:48] [Server thread/INFO]: Set the target tick rate to 500.0 per second
+[15:55:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 1041ms or 520 ticks behind
+[15:55:59] [Server thread/INFO]: TheVi0letGamer was slain by Husk
+[15:56:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6799ms or 3399 ticks behind
+[15:56:16] [Server thread/INFO]: Set the target tick rate to 50.0 per second
+[15:57:27] [Server thread/INFO]: Summoned new Creeper
+[15:58:52] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[15:58:52] [Server thread/INFO]: /execute as @e[limit=50] at @p run summon minecraft:creeper ~ ~ ~<--[HERE]
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: Summoned new Creeper
+[15:58:57] [Server thread/INFO]: TheVi0letGamer was squished too much
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:21] [Server thread/INFO]: Summoned new Creeper
+[15:59:23] [Server thread/INFO]: TheVi0letGamer was doomed to fall by Creeper
+[15:59:37] [Server thread/WARN]: Entity PokemonEntity['Cyndaquil'/3475, l='ServerLevel[world]', x=-90.50, y=65.00, z=-1.50, removed=DISCARDED] wasn't found in section class_4076{x=-6, y=4, z=-1} (destroying due to DISCARDED)
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: Summoned new Creeper
+[15:59:43] [Server thread/INFO]: TheVi0letGamer was blown up by Creeper
+[16:00:13] [Server thread/INFO]: Set the target tick rate to 500.0 per second
+[16:00:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 1046ms or 523 ticks behind
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:17] [Server thread/INFO]: Summoned new Creeper
+[16:00:19] [Server thread/INFO]: TheVi0letGamer was blown up by Creeper
+[16:00:27] [Server thread/INFO]: TheVi0letGamer was slain by Husk
+[16:00:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3382ms or 1691 ticks behind
+[16:00:36] [Server thread/INFO]: Set the target tick rate to 250.0 per second
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:49] [Server thread/INFO]: Summoned new Skeleton
+[16:00:50] [Server thread/INFO]: TheVi0letGamer was shot by Skeleton
+[16:00:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12300ms or 3075 ticks behind
+[16:00:56] [Server thread/INFO]: TheVi0letGamer was slain by Zombie
+[16:01:01] [Server thread/INFO]: TheVi0letGamer was slain by Zombie
+[16:01:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 1084ms or 271 ticks behind
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:06] [Server thread/INFO]: Summoned new Creeper
+[16:01:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10960ms or 2740 ticks behind
+[16:01:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8578ms or 2144 ticks behind
+[16:01:58] [Server thread/INFO]: Can't find element 'minecraft:minecraf/execute' of type 'minecraft:entity_type'
+[16:01:58] [Server thread/INFO]: ...af/execute as @e[limit=50] at @p run summon minecraft:wither<--[HERE]
+[16:02:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9613ms or 2403 ticks behind
+[16:02:13] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:02:13] [Server thread/INFO]: tickrate 5<--[HERE]
+[16:02:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4863ms or 1215 ticks behind
+[16:02:27] [Server thread/INFO]: TheVi0letGamer drowned
+[16:02:28] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:02:28] [Server thread/INFO]: /tickrste 5<--[HERE]
+[16:02:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 1082ms or 270 ticks behind
+[16:02:35] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:02:35] [Server thread/INFO]: tickrate 5<--[HERE]
+[16:02:41] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:02:41] [Server thread/INFO]: tickrate 5<--[HERE]
+[16:02:44] [Server thread/INFO]: TheVi0letGamer was shot by Skeleton
+[16:02:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4587ms or 1146 ticks behind
+[16:02:53] [Server thread/INFO]: TheVi0letGamer was shot by Skeleton
+[16:02:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 1081ms or 270 ticks behind
+[16:03:13] [Server thread/INFO]: TheVi0letGamer has made the advancement [Ice Bucket Challenge]
+[16:03:13] [Server thread/INFO]: Gave 64 [Obsidian] to TheVi0letGamer
+[16:03:13] [Server thread/INFO]: TheVi0letGamer was slain by Zombie
+[16:03:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6428ms or 1607 ticks behind
+[16:03:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4906ms or 1226 ticks behind
+[16:03:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9165ms or 2291 ticks behind
+[16:04:02] [Server thread/WARN]: Entity PokemonEntity['Cyndaquil'/8853, l='ServerLevel[world]', x=-58.62, y=63.00, z=32.09, removed=DISCARDED] wasn't found in section class_4076{x=-4, y=3, z=2} (destroying due to DISCARDED)
+[16:04:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7758ms or 1939 ticks behind
+[16:04:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7659ms or 1914 ticks behind
+[16:04:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13442ms or 3360 ticks behind
+[16:04:48] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:04:48] [Server thread/INFO]: spawn /execute as @e[limit=50] at @p run summon minecraft:creeper ~ ~/execute as @e[limit=50] at @p run summon minecraft:wither ~ ~ ~<--[HERE]
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:01] [Server thread/INFO]: Summoned new Creeper
+[16:05:03] [Server thread/INFO]: TheVi0letGamer was blown up by Creeper
+[16:05:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4891ms or 1222 ticks behind
+[16:05:18] [Server thread/INFO]: TheVi0letGamer was slain by Arbok
+[16:05:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3998ms or 999 ticks behind
+[16:05:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7851ms or 1962 ticks behind
+[16:05:43] [Server thread/INFO]: Expected double
+[16:05:43] [Server thread/INFO]: ...ilverfish /execute as @e[limit=50] at @p run summon minecraft:silverfish ~ ~/execute as @e[limit=50] at @p run summon minecraft:creeper ~ ~ ~[D<--[HERE]
+[16:05:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8517ms or 2129 ticks behind
+[16:06:00] [Server thread/INFO]: TheVi0letGamer was slain by Drowned
+[16:06:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3663ms or 915 ticks behind
+[16:06:14] [Server thread/INFO]: TheVi0letGamer was slain by Enderman
+[16:06:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2874ms or 718 ticks behind
+[16:06:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5822ms or 1455 ticks behind
+[16:06:46] [Server thread/INFO]: Can't find element 'minecraft:minecraft/execute' of type 'minecraft:entity_type'
+[16:06:46] [Server thread/INFO]: ...ft/execute as @e[limit=50] at @p run summon minecraft:creeper /execute as @e[limit=50] at @p run summon minecraft:si/execute as @e[limit=50] at @p run summon minecraft:silverfish/execute as @e[limit=50] at @p run summon minecraft:silverfish/execute as @e[limit=50] at @p run summon minecraft:silverfish ~ ~ ~<--[HERE]
+[16:06:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6108ms or 1527 ticks behind
+[16:07:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4817ms or 1204 ticks behind
+[16:07:18] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:07:18] [Server thread/INFO]: at @p run summon minecraft:silverfish/execute as @e[limit=50] at @p run summon minecraft:silverfish ~ ~ ~/at @p run summon minecraft:silverfish/execute as @e[limit=50] at @p run summon minecraft:silverfish ~ ~ ~^<--[HERE]
+[16:07:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5802ms or 1450 ticks behind
+[16:07:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7629ms or 1907 ticks behind
+[16:08:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8507ms or 2126 ticks behind
+[16:08:14] [Server thread/INFO]: TheVi0letGamer was shot by Pillager
+[16:08:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 1081ms or 270 ticks behind
+[16:08:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7355ms or 1838 ticks behind
+[16:08:47] [Server thread/INFO]: TheVi0letGamer has made the advancement [Very Berry]
+[16:09:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 27615ms or 6903 ticks behind
+[16:09:18] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:09:18] [Server thread/INFO]: file:///execute as @e[limit=200] at @p run pokespawn voltorb  ~ ~ ~<--[HERE]
+[16:09:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17350ms or 4337 ticks behind
+[16:09:50] [Server thread/WARN]: Entity PokemonEntity['Cyndaquil'/15239, l='ServerLevel[world]', x=-16.17, y=64.00, z=17.45, removed=DISCARDED] wasn't found in section class_4076{x=-2, y=4, z=1} (destroying due to DISCARDED)
+[16:10:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13829ms or 3457 ticks behind
+[16:10:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20445ms or 5111 ticks behind
+[16:10:41] [Server thread/INFO]: TheVi0letGamer suffocated in a wall
+[16:10:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3341ms or 835 ticks behind
+[16:10:58] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:10:58] [Server thread/INFO]: file:///execute as @e[limit=200] at @p run pokespawn wailord  ~ ~ ~file:///execute as @e[limit=200] at @p run pokespawn wailord  ~ ~ ~/execute as @e[limit=200] at @p run pokespawn wailord  ~ ~ ~<--[HERE]
+[16:11:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18562ms or 4640 ticks behind
+[16:11:50] [Server thread/INFO]: TheVi0letGamer was slain by Husk
+[16:11:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20608ms or 5152 ticks behind
+[16:12:00] [Server thread/INFO]: TheVi0letGamer was slain by Husk
+[16:12:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 1082ms or 270 ticks behind
+[16:12:04] [Server thread/INFO]: TheVi0letGamer was slain by Husk
+[16:12:11] [Server thread/INFO]: TheVi0letGamer was slain by Husk
+[16:12:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3531ms or 882 ticks behind
+[16:12:18] [Server thread/INFO]: TheVi0letGamer was slain by Husk
+[16:12:23] [Server thread/INFO]: TheVi0letGamer was slain by Husk
+[16:12:29] [Server thread/INFO]: TheVi0letGamer has made the advancement [Monster Hunter]
+[16:12:30] [Server thread/INFO]: TheVi0letGamer was slain by Husk
+[16:12:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2637ms or 659 ticks behind
+[16:12:40] [Server thread/INFO]: Can't find element 'file:///effect' of type 'minecraft:mob_effect'
+[16:12:40] [Server thread/INFO]: ...:///effect%20give%20@a%20resistance%20200%20200000<--[HERE]
+[16:12:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9731ms or 2432 ticks behind
+[16:12:57] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:12:57] [Server thread/INFO]: file:///effect%20give%20@a%20resistance%20200%20200000/effect%20give%20@a%20resistance%20200%20200000<--[HERE]
+[16:13:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10308ms or 2577 ticks behind
+[16:13:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8970ms or 2242 ticks behind
+[16:13:42] [Server thread/INFO]: TheVi0letGamer was slain by Rabsca
+[16:13:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 1955ms or 488 ticks behind
+[16:13:49] [Server thread/INFO]: Integer must not be more than 1000000, found 9999999
+[16:13:49] [Server thread/INFO]: ...esistance 9999999 200<--[HERE]
+[16:13:58] [Server thread/INFO]: Stopping server
+[16:13:58] [Server thread/INFO]: Saving players
